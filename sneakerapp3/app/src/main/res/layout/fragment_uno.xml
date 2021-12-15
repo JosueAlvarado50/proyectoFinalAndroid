@@ -9,64 +9,45 @@
         android:id="@+id/textox2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Agregar producto"
         android:layout_centerHorizontal="true"
+        android:background="@color/black"
+        android:padding="5dp"
+        android:text="ElegirProducto"
         android:textAlignment="center"
-        android:background="@color/purple_500"
-        android:textColor="@color/black"
-        android:padding="15dp"
-        android:textStyle="bold|italic"/>
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
 
-    <LinearLayout
-        android:id="@+id/liner_layout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/accesorios"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
         android:layout_below="@+id/textox2"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="30dp">
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/menucom" />
 
-        <ImageView
-            android:id="@+id/tenis"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/s"/>
-        <ImageView
-            android:id="@+id/ropa"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/tshirt"/>
+    <ImageView
+        android:id="@+id/tenis"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/accesorios"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/menubeb" />
 
+    <ImageView
+        android:id="@+id/ropa"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tenis"
 
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/liner_layout2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/liner_layout1"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="30dp">
+        android:layout_alignParentBottom="true"
 
 
-        <ImageView
-            android:id="@+id/accesorios"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/glasses"/>
-        <ImageView
-            android:id="@+id/mas"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/basket"/>
-
-
-    </LinearLayout>
-
-
-
+        android:layout_gravity="center"
+        android:layout_marginBottom="182dp"
+        android:src="@drawable/menupos" />
 
 
 
