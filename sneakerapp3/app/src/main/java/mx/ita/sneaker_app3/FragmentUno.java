@@ -27,7 +27,7 @@ public class FragmentUno extends Fragment {
         tenis = (ImageView) fragmento.findViewById(R.id.tenis);
         ropa = (ImageView) fragmento.findViewById(R.id.ropa);
         accesorios = (ImageView) fragmento.findViewById(R.id.accesorios);
-        mas = (ImageView) fragmento.findViewById(R.id.mas);
+       // mas = (ImageView) fragmento.findViewById(R.id.mas);
 
         tenis.setOnClickListener(new View.OnClickListener() {
             @Override
