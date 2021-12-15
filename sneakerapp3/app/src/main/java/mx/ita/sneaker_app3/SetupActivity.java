@@ -200,6 +200,7 @@ public class SetupActivity extends AppCompatActivity {
                     if(task.isSuccessful()){
                         Toast.makeText(SetupActivity.this, "Guardadooo", Toast.LENGTH_SHORT).show();
                         EnviaralInicio();
+                        imagen.setVisibility(View.GONE);
                         dialog.dismiss();
                     }else{
                         String mensaje = task.getException().toString();
@@ -213,7 +214,6 @@ public class SetupActivity extends AppCompatActivity {
         }
 
     }
-
     private void EnviaralInicio(){
         Intent i = new Intent(SetupActivity.this, PrincipalActivity.class);
         i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

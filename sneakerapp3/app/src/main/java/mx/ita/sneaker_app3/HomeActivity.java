@@ -32,7 +32,6 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(HomeActivity.this, LoginAdminActivity.class);
                 startActivity(i);
-
             }
         });
 
