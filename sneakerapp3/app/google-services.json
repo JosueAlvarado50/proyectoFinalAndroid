@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "702202417710",
+    "firebase_url": "https://carritosneakerapp-default-rtdb.firebaseio.com",
+    "project_id": "carritosneakerapp",
+    "storage_bucket": "carritosneakerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702202417710:android:e8288af3bdcb07c638c5bf",
+        "android_client_info": {
+          "package_name": "mx.ita.sneaker_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702202417710-fe9ugfhj2b96j0ll9jtt6uul4jl901tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCESgvDtFRsMqtoprhVyq4e-H-HHIN5mlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702202417710-fe9ugfhj2b96j0ll9jtt6uul4jl901tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702202417710:android:8c40276e3e0a5c6c38c5bf",
+        "android_client_info": {
+          "package_name": "mx.ita.sneaker_app2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702202417710-fe9ugfhj2b96j0ll9jtt6uul4jl901tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCESgvDtFRsMqtoprhVyq4e-H-HHIN5mlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702202417710-fe9ugfhj2b96j0ll9jtt6uul4jl901tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702202417710:android:241553fa93de617238c5bf",
+        "android_client_info": {
+          "package_name": "mx.ita.sneaker_app3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702202417710-fe9ugfhj2b96j0ll9jtt6uul4jl901tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCESgvDtFRsMqtoprhVyq4e-H-HHIN5mlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702202417710-fe9ugfhj2b96j0ll9jtt6uul4jl901tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

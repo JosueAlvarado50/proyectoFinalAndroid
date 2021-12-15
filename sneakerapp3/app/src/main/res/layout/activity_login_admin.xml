@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginAdminActivity">
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INICIAR SESION"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_login"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_login"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/welcome"/>
+
+    <EditText
+        android:id="@+id/Et_telefonoadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_login"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:hint="telefono"
+        android:background="@drawable/textos"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:inputType="phone"
+
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/Et_passadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Et_telefonoadmin"
+        android:layout_marginTop="15dp"
+        android:layout_margin="20dp"
+        android:hint="codigo"
+        android:background="@drawable/textos"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:visibility="gone"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/Btn_codigoadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Et_passadmin"
+        android:layout_margin="20dp"
+        android:text="Enviar Codigo"
+        android:textStyle="bold"
+        android:background="@drawable/botones1"
+
+
+        />
+
+    <Button
+        android:id="@+id/Btn_loginadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Btn_codigoadmin"
+        android:layout_margin="20dp"
+        android:text="Confirmar"
+        android:textStyle="bold"
+        android:background="@drawable/botones1"
+        android:visibility="gone"
+
+
+
+        />
+    <Button
+        android:id="@+id/Btn_fbadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Facebook"
+        android:textStyle="bold"
+        android:background="@drawable/botones1"
+        android:layout_above="@id/Btn_googleadmin"
+
+
+
+        />
+    <Button
+        android:id="@+id/Btn_googleadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Google"
+        android:textStyle="bold"
+        android:background="@drawable/botones1"
+        android:layout_alignParentBottom="true"
+
+
+
+        />
+
+</RelativeLayout>

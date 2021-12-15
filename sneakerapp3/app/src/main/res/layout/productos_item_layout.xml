@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/producto_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del producto"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/producto_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/producto_nombre"
+            android:layout_marginTop="2dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/producto_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/producto_imagen"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:text="Descripcion del producto"
+            android:textColor="@color/purple_500"/>
+        <TextView
+            android:id="@+id/producto_cantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/producto_descripcion"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="Cantidad: 000"
+            android:textColor="@color/purple_500"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/producto_precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/producto_descripcion"
+            android:layout_marginStart="85dp"
+            android:layout_toEndOf="@id/producto_cantidad"
+            android:text="$00.00"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

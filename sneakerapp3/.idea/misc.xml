@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/sneakerapp3/app/src/main/res/drawable-v24/botones1.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/drawable-v24/botones2.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/drawable-v24/textos.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_agregarproducto.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_carrito.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_confirmarorden.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_login.xml" value="0.14" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_login_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_perfil.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_principal.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_producto_detalles.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_setup.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/activity_setup_admin.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/app_bar_principal.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/app_layout_principal.xml" value="0.25" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/car_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/contenido_principal.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/fragment_cuatro.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/fragment_dos.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/fragment_productos.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/fragment_tres.xml" value="0.1" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/fragment_uno.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/nav_header_principal.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/ordenes_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/producto_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/layout/productos_item_layout.xml" value="0.22" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/menu/activity_principal_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/sneakerapp3/app/src/main/res/menu/menu_botton.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

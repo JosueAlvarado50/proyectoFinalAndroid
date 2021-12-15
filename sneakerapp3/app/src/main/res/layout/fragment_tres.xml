@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentTres">
+
+    <TextView
+        android:id="@+id/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfil Usuario"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@color/purple_500"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:textStyle="bold|italic"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/admperfil_imagen"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/welcome"
+        android:layout_below="@id/encabezado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp"/>
+
+    <EditText
+        android:id="@+id/admperfil_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admperfil_imagen"
+        android:hint="nombre"
+        android:padding="10dp"
+        android:background="@drawable/textos"
+        android:inputType="text"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/admperfil_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admperfil_nombre"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textos"
+        android:hint="direccion"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/admperfil_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admperfil_direccion"
+        android:hint="telefono"
+        android:padding="10dp"
+        android:background="@drawable/textos"
+        android:inputType="phone"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/admperfil_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admperfil_telefono"
+        android:hint="ciudad"
+        android:padding="10dp"
+        android:background="@drawable/textos"
+        android:inputType="text"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/admperfil_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admperfil_ciudad"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/botones1"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="GUARDAR"
+        android:textSize="20dp" />
+
+</RelativeLayout>

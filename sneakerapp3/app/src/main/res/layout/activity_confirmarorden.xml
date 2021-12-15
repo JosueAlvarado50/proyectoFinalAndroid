@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmarordenActivity">
+
+    <TextView
+        android:id="@+id/texto23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar compra"
+        android:textSize="24dp"
+        android:textColor="@color/teal_200"
+        android:layout_margin="15dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/confirma_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto23"
+        android:layout_margin="35dp"
+        android:hint="Nombre"
+        android:background="@drawable/textos"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/confirma_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirma_nombre"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:inputType="textEmailAddress"
+        android:hint="Correo"
+        android:background="@drawable/textos"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/confirma_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirma_correo"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:hint="direccion"
+        android:background="@drawable/textos"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/confirma_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirma_direccion"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:inputType="phone"
+        android:hint="telefono"
+        android:background="@drawable/textos"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/confirma_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="Finalizar compra"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:background="@drawable/botones2"
+        android:padding="10dp"/>
+
+
+</RelativeLayout>

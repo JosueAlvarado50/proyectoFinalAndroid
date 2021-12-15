@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarproductoActivity">
+
+
+    <TextView
+        android:id="@+id/textox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple_500"
+        android:padding="15dp"
+        android:text="Agregar producto"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imagenpro"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/textox"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/agregarimagen"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/nombrepro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagenpro"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/textos"
+        android:hint="Nombre del producto"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/descripcionpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombrepro"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Descripcion del producto"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/textos"/>
+
+    <EditText
+        android:id="@+id/preciocomprapro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descripcionpro"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/textos"
+        android:hint="Precio de compra"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/precioventapro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preciocomprapro"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/textos"
+        android:hint="Precio de venta"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/cantidadpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/precioventapro"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/textos"
+        android:hint="Csntidad existente"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/agregarpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cantidadpro"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Agregar producto"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:background="@drawable/botones1"/>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarritoActivity">
+
+    <RelativeLayout
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/teal_700"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:id="@+id/precio_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total:   $"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/mensaje1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:text="Su compra fue exitosa!"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/carrito_lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id1"
+        android:layout_above="@id/siguiente_proceso"/>
+    <Button
+        android:id="@+id/siguiente_proceso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/botones2"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+
+</RelativeLayout>

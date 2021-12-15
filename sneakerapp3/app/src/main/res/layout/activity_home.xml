@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/welcome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO A"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/botonusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="USER"
+        android:textColor="@color/black"
+        android:background="@drawable/botones1"
+        android:layout_above="@id/botonadmin"
+        />
+    <Button
+        android:id="@+id/botonadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ADMIN"
+        android:background="@drawable/botones2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+</RelativeLayout>
